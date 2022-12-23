@@ -16,3 +16,5 @@ Steps 😇 :
 8. Configure on your system by using command aws configure  and enter credetials( if not then install aws-cli on your system ) 
 9. Create serverless.yaml file do configuration same as in file ( chose version and region accordingly )
 10. Run : sls deploy 
+
+Note : You can use same DB or can create from https://www.elephantsql.com/ for free 😍
