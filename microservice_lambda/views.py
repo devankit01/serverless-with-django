@@ -9,7 +9,6 @@ from django.http import HttpResponse
 
 class ProductViewAPI(APIView):
 
-
     def get(self, request, format=None):
         
         snippets = ProductModel.objects.all()
