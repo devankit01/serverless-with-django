@@ -1,10 +1,10 @@
 # serverless-with-django
 
-Integrating Django Web Framework with AWS Serverless
+Integrating Django Web Application with AWS Serverless and Deploying ✨
 
-Live Link : https://bv7732t16k.execute-api.us-east-1.amazonaws.com/dev/
+Live Link : https://bv7732t16k.execute-api.us-east-1.amazonaws.com/dev/ 💻
 
-Steps : 
+Steps 😇 : 
 
 1. Install node>=v16
 2. Clone repository or make your own django application
