@@ -9,7 +9,7 @@ Steps 😇 :
 1. Install node>=v16
 2. Clone repository or make your own django application
 3. ```npm install -g serverless```
-4. Inside project run :  ```npm install --save-dev serverless-wsgi serverless-python-requirements````
+4. Inside project run :  ```npm install --save-dev serverless-wsgi serverless-python-requirements```
 5. To check application : ```sls wsgi serve```
 6. Create AWS IAM user with S3bucketFullAccess, CloudFormationFullAccess and LambdaFullAccess 
 7. Download IAM user credentials in csv
