@@ -1,0 +1,29 @@
+service: django-app
+frameworkVersion: '3'
+
+plugins:
+  - serverless-python-requirements
+  - serverless-wsgi
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+  region: us-east-1
+  memorySize: 256
+custom:
+  wsgi:
+    app: MainApp.wsgi.application
+    packRequirements: false
+    pythonBin: python3
+  pythonRequirements:
+    dockerizePip: non-linux
+  
+    
+functions:
+  app:
+    handler: wsgi_handler.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
+
